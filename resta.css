@@ -1,0 +1,156 @@
+*{
+    font-family: 'fondamento';
+    text-transform: capitalize;
+}
+/* Start Nav */
+.nav{
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav .logo img{
+    width: 50%;
+}
+.nav .nav-content ul{
+    height: 70px;
+    list-style: none;
+}
+.nav .nav-content ul li:hover{
+    color: goldenrod;
+}
+/* Start Header */
+.header{
+    height: 400px;
+    background-image: url(5.png);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+.header .container button:first-child{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.header .container button:last-child{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+/* Start Just */
+.just{
+height: 900px;
+background-color: honeydew;
+background-attachment: fixed;
+background-image: url(10.png);
+}
+.just .container h2{
+    color: goldenrod;
+}
+@media(max-width:524px){
+    .just{height: 1100px;}
+}
+/* Start Fine */
+.fine{
+    height: 600px;
+    color: white;
+    background-image: url(15.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fine .container .fine-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 400px;
+}
+.fine .container .fine-content .fine-img img{
+    width: 20%;
+}
+/* Start Menu */
+.menu{
+    height: 700px;
+    background-image: url(10.png);
+    background-attachment: fixed;
+}
+.menu .container .type{
+    width: 400px;
+    border-bottom: 1px solid goldenrod;
+    margin-bottom: 10px;
+}
+.menu .container .type h5{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.menu .container .type h5:last-child{
+    text-align: start;
+}
+.menu .container fieldset{
+    width: 100%
+    border: 1px solid black;
+}
+.menu .container legend{
+    text-align: end;
+}
+@media(max-width:524px){
+    .menu{height: 1500px;}
+}
+/* Start Guest */
+.guest{
+    height: 600px;
+    background-image: url(14.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.guest .container .guest-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 500px;
+    height: 400px;
+}
+.guest .container .guest-content p{
+    line-height: 2;
+}
+/* Start Right food */
+.food{
+    height: 600px;
+    background-image: url(10.png);
+}
+.food .container .food-img{
+    display: flex;
+}
+.food .container .food-img img{
+    width: 50%;
+    margin-left: 20px;
+}
+.food .container .food-content{
+    text-align: center;
+}
+.food .container .food-content .row{
+    display: flex;
+}
+.forma label{
+    color: goldenrod;
+    display: block;
+}
+#btn-submit{
+    margin-top: 20px;
+    text-align: center;
+}
+/* Start Footer */
+.footer{
+    height: 400px;
+    background-color: grey;
+    color: white;
+}
+.footer h3{
+    text-align: center;
+}
+.footer span{
+    font-weight: bolder;
+}
+.footer .container i{
+    color: white;
+    padding-left: 10px;
+}
